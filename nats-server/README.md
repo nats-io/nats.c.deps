@@ -1,8 +1,8 @@
 ## <img src="logos/nats-server.png" width="300">
 
-[NATS](https://nats.io) is a simple, secure and performant communications system for digital systems, services and devices. NATS is part of the Cloud Native Computing Foundation ([CNCF](https://cncf.io)). NATS has over [30 client language implementations](https://nats.io/download/), and its server can run on-premise, in the cloud, at the edge, and even on a Raspberry Pi. NATS can secure and simplify design and operation of modern distributed systems.
+[NATS](https://nats.io) is a simple, secure and performant communications system for digital systems, services and devices. NATS is part of the Cloud Native Computing Foundation ([CNCF](https://cncf.io)). NATS has over [40 client language implementations](https://nats.io/download/), and its server can run on-premise, in the cloud, at the edge, and even on a Raspberry Pi. NATS can secure and simplify design and operation of modern distributed systems.
 
-[![License][License-Image]][License-Url] [![FOSSA Status][Fossa-Image]][Fossa-Url] [![ReportCard][ReportCard-Image]][ReportCard-Url] [![Build][Build-Status-Image]][Build-Status-Url] [![Release][Release-Image]][Release-Url] [![Coverage][Coverage-Image]][Coverage-Url] [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1895/badge)](https://bestpractices.coreinfrastructure.org/projects/1895)
+[![License][License-Image]][License-Url] [![Build][Build-Status-Image]][Build-Status-Url] [![Release][Release-Image]][Release-Url] [![Slack][Slack-Image]][Slack-Url] [![Coverage][Coverage-Image]][Coverage-Url] [![Docker Downloads][Docker-Image]][Docker-Url] [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1895/badge)](https://bestpractices.coreinfrastructure.org/projects/1895)
 
 ## Documentation
 
@@ -25,12 +25,16 @@ If you are interested in contributing to NATS, read about our...
 
 [License-Url]: https://www.apache.org/licenses/LICENSE-2.0
 [License-Image]: https://img.shields.io/badge/License-Apache2-blue.svg
+[Docker-Image]: https://img.shields.io/docker/pulls/_/nats.svg
+[Docker-Url]: https://hub.docker.com/_/nats
+[Slack-Image]: https://img.shields.io/badge/chat-on%20slack-green
+[Slack-Url]: https://join.slack.com/t/natsio/shared_invite/zt-41e6tnmb-qCt63606MKR1YxIHZf4ICA
 [Fossa-Url]: https://app.fossa.io/projects/git%2Bgithub.com%2Fnats-io%2Fgnatsd?ref=badge_shield
 [Fossa-Image]: https://app.fossa.io/api/projects/git%2Bgithub.com%2Fnats-io%2Fgnatsd.svg?type=shield
-[Build-Status-Url]: https://travis-ci.org/nats-io/nats-server
-[Build-Status-Image]: https://travis-ci.org/nats-io/nats-server.svg?branch=master
-[Release-Url]: https://github.com/nats-io/nats-server/releases/tag/v2.1.6
-[Release-image]: https://img.shields.io/badge/release-v2.1.6-1eb0fc.svg
+[Build-Status-Url]: https://travis-ci.com/github/nats-io/nats-server
+[Build-Status-Image]: https://travis-ci.com/nats-io/nats-server.svg?branch=master
+[Release-Url]: https://github.com/nats-io/nats-server/releases/tag/v2.2.1
+[Release-image]: https://img.shields.io/badge/release-v2.2.1-1eb0fc.svg
 [Coverage-Url]: https://coveralls.io/r/nats-io/nats-server?branch=master
 [Coverage-image]: https://coveralls.io/repos/github/nats-io/nats-server/badge.svg?branch=master
 [ReportCard-Url]: https://goreportcard.com/report/nats-io/nats-server
