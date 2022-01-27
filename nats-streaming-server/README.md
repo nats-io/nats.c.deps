@@ -6,11 +6,11 @@ NATS Streaming is an extremely performant, lightweight reliable streaming platfo
 
 # WARNING:  Deprecation Notice :warning:
 
-The NATS Streaming Server is being deprecated.  Critical bug fixes and security fixes will be applied until June of 2023.  NATS enabled applications requiring persistence should use [JetStream](https://docs.nats.io/jetstream/jetstream).
+The NATS Streaming Server is being deprecated.  Critical bug fixes and security fixes will be applied until June of 2023.  NATS enabled applications requiring persistence should use [JetStream](https://docs.nats.io/nats-concepts/jetstream).
 
 ## Documentation
 
-* [Official documentation](https://docs.nats.io/nats-streaming-concepts)
+* [Official documentation](https://docs.nats.io/legacy/stan)
 
 ## Clients
 
@@ -48,6 +48,6 @@ under the Apache Version 2.0 license found in the LICENSE file.
 [Coverage-image]: https://coveralls.io/repos/github/nats-io/nats-streaming-server/badge.svg?branch=main&t=kIxrDE
 [ReportCard-Url]: http://goreportcard.com/report/nats-io/nats-streaming-server
 [ReportCard-Image]: http://goreportcard.com/badge/github.com/nats-io/nats-streaming-server
-[Release-Url]: https://github.com/nats-io/nats-streaming-server/releases/tag/v0.23.2
-[Release-image]: https://img.shields.io/badge/release-v0.23.2-1eb0fc.svg
+[Release-Url]: https://github.com/nats-io/nats-streaming-server/releases/tag/v0.24.0
+[Release-image]: https://img.shields.io/badge/release-v0.24.0-1eb0fc.svg
 [github-release]: https://github.com/nats-io/nats-streaming-server/releases/
